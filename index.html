@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Executive Onboard — Luxury Chauffeur Miami</title>
+<meta name="description" content="Black car & Sprinter service across Miami, Broward, and Palm Beach. Airport transfers, hourly, events.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+body{font-family:Inter,system-ui,-apple-system,sans-serif;margin:0;line-height:1.5}
+.wrap{max-width:1200px;margin:auto;padding:24px}
+header{padding:24px 0;display:flex;justify-content:space-between;align-items:center}
+.btn{display:inline-block;padding:12px 18px;border:1px solid #111;border-radius:8px;text-decoration:none}
+.hero{padding:64px 0;display:grid;gap:24px}
+.grid{display:grid;gap:16px}
+@media(min-width:900px){.hero{grid-template-columns:1.2fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}}
+.card{border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+footer{padding:40px 0;color:#555}
+h1{font-size:42px;line-height:1.1;margin:0 0 12px}
+h2{margin:24px 0 8px}
+.cta{background:#111;color:#fff;border-color:#111}
+.bar{display:flex;gap:10px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<strong>Executive Onboard</strong>
+<div class="bar">
+<a class="btn" href="#services">Services</a>
+<a class="btn" href="#fleet">Fleet</a>
+<a class="btn cta" href="#book">Book Now</a>
+</div>
+</header>
+
+<section class="hero">
+<div>
+<h1>Luxury Chauffeur Service in South Florida</h1>
+<p>Airport transfers • Hourly • Events • Corporate. Miami · Broward · Palm Beach.</p>
+<div class="bar">
+<a class="btn cta" href="#book">Get a Quote</a>
+<a class="btn" href="https://wa.me/1XXXXXXXXXX">WhatsApp Us</a>
+</div>
+</div>
+<img src="hero.jpg" alt="Black SUV chauffeur service" style="width:100%;border-radius:12px;">
+</section>
+
+<section id="services" class="grid grid-3">
+<div class="card"><h2>Airport Transfers</h2><p>FLL, MIA, PBI. Flight tracking & curbside pickup.</p></div>
+<div class="card"><h2>Hourly</h2><p>Wait & return service. 3-hour minimum.</p></div>
+<div class="card"><h2>Events</h2><p>Weddings, concerts, VIP nights—professional chauffeurs.</p></div>
+</section>
+
+<section id="fleet" class="grid grid-3">
+<div class="card"><h2>Suburban/Yukon</h2><p>Up to 6 passengers • Black on black.</p></div>
+<div class="card"><h2>Escalade</h2><p>Premium SUV • VIP experience.</p></div>
+<div class="card"><h2>Sprinter</h2><p>11–14 passengers • Group travel.</p></div>
+</section>
+
+<section id="book" class="card">
+<h2>Request a Quote</h2>
+<form action="https://formspree.io/f/your-id" method="POST">
+<label>Name<br><input name="name" required></label><br><br>
+<label>Phone/WhatsApp<br><input name="phone" required></label><br><br>
+<label>Pickup & Dropoff<br><input name="route" required></label><br><br>
+<label>Date & Time<br><input type="datetime-local" name="datetime" required></label><br><br>
+<label>Vehicle<br>
+<select name="vehicle"><option>Suburban</option><option>Escalade</option><option>Sprinter</option></select>
+</label><br><br>
+<button class="btn cta" type="submit">Send</button>
+</form>
+</section>
+
+<footer>
+© Executive Onboard • Licensed & Insured • <a href="mailto:info@yourdomain.com">info@yourdomain.com</a> • (XXX) XXX-XXXX
+</footer>
+</div>
+</body>
+</html>
